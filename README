@@ -1,1 +1,8 @@
 This is a nodejs project
+
+npm install puppeteer
+  540  node example.js 
+  541  ls
+  542  firefox example.
+  543  firefox example.png 
+

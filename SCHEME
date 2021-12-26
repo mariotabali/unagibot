@@ -1,0 +1,20 @@
+There are deterministic test to determine certain situation:
+
+Is login password submit-> LPS bind l1 p and submit
+IS login1 login2 password submit -> LLPS bind l1 l2 p and submi
+Is login submit password submit -> LSPS bind l1 submit bind p submit
+Is it login submit?  -> LS
+IS it nonlogin? -> NL
+has it Sidebuttonmenu? SDM
+has it logout? 
+Has it numeric ID Login? rutlogin
+wrong user or password
+Identify exit option
+
+There are 'blurry' things
+
+welcome page
+advertisement popup
+private site
+
+
