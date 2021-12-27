@@ -1,11 +1,20 @@
 const puppeteer = require('puppeteer');
 const test = require('./diag/deterministictests.js');
 
-(async () => {
-  const browser = await puppeteer.launch();
+let ff = (async () => {
+  const browser = await puppeteer.launch({
+    executablePath: '/usr/bin/chromium-browser',
+    args: ['--no-sandbox', '--disable-setuid-sandbox']});
   const page = await browser.newPage();
   await page.goto('https://webmail.udec.cl/');
   let hola = test[0](page).then((v) => {console.log(v)});
   await page.screenshot({ path: 'example.png' });
   await browser.close();
 })();
+
+module.export = ff;
+/*
+const browser = await puppeteer.launch({
+  executablePath: '/usr/bin/chromium-browser'
+})
+*/

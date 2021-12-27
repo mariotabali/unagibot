@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "puppeteer": "^13.0.1",
-    "puppeteer-core": "^13.0.1"
+    "puppeteer-core": "^13.0.1",
+    "ronin-mocks": "^0.1.6",
+    "ronin-server": "^0.1.3"
   }
 }
