@@ -1,0 +1,348 @@
+https://www.bci.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.santander.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.bancochile.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.bancoestado.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.scotiabank.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.bancofalabella.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.bancoripley.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 6, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.bancosecurity.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 3, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.falabella.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.ripley.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.paris.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 3, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://sgc.maipu.cl/sucursal-virtual
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.vtr.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://webmail.tie.cl
+{ node: 'lps', found: true, incumbents: [], context: 'publiclogin' }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 1, text: 1, submit: 1 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://ww2.movistar.cl/
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 3, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://directv.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 2, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://github.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://bitbucket.org
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 1, submit: 1 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://outlook.live.cl
+https://webmail.udec.cl/
+{ node: 'lps', found: true, incumbents: [], context: 'publiclogin' }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 1, text: 1, submit: 1 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.ufro.cl/webmail/WebMail-NS.htm
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.udp.cl/docentes/webmail/
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 4, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.yahoo.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 2, submit: 1 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://mail.yahoo.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.correos.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://claveunica.gob.cl/
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://sii.cl
+https://cf.passport.hpe.com/hppcf/login.do
+https://login.microfocus.com/nidp/app/login?id=82&sid=0&option=credential&sid=0
+{ node: 'lps', found: true, incumbents: [], context: 'publiclogin' }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 1, text: 1, submit: 1 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.facebook.com/
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 1, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.twitter.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.instagram.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 1, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.tiktok.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://linkedin.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 1, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://reddit.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.youtube.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.twitch.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.disneyplus.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.netflix.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 1, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.roblox.com/
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 1, text: 3, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://steam.com
+https://mojang.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.banmedica.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 5, submit: 1 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.chp.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.redsalud.cl
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 2, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://www.uber.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 2, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
+https://pedidosya.com
+{ node: 'lps', found: false, incumbents: [] }
+{
+  node: 'llps',
+  found: false,
+  incumbents: { pass: 0, text: 0, submit: 0 }
+}
+{ node: 'closedivadvid', found: false, incumbents: [] }
