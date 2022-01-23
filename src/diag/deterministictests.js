@@ -3,16 +3,22 @@ const fs = require('fs');
 // returns json with found: boolean and a list of the different objects
 // we start with the basics then adapt
 
-let lps = (page) => { let aa =page.evaluate(() => {
-    if (document.querySelectorAll("input[type='password']").length == 1 &&
-        document.querySelectorAll("input[type='text']").length == 1 &&
-        document.querySelectorAll("input[type='submit']").length == 1) {
-      return {node: "lps", found: true, incumbents: [], context: "publiclogin"};
-    } else {
-      return {node: "lps", found: false, incumbents: []};
-    }
-  });
-return aa;
+let lps = (page) => {
+    /*page.waitForSelector("input[type='password']");*/
+    let aa = page.evaluate(() => {
+      if (document.querySelectorAll("input[type='password']").length == 1 &&
+          document.querySelectorAll("input[type='text']").length == 1 &&
+          document.querySelectorAll("input[type='submit']").length == 1) {
+        return {node: "lps", found: true, incumbents: [], context: "publiclogin"};
+      } else if (document.querySelectorAll("input[type='password']").length == 1 &&
+          document.querySelectorAll("input[type='text']").length == 1 &&
+          document.querySelectorAll("button[type='submit']").length == 1) {
+        return {node: "lps", found: true, incumbents: [], context: "publiclogin"};
+      } else {
+        return {node: "lps", found: false, incumbents: []};
+      }
+    });
+    return aa;
 };
 
 let llps = (page) => { let aa =page.evaluate(() => {
@@ -71,12 +77,37 @@ let adv2 = (page) => {
   return aa;
 };
 
+let publicSite = (page) => {
+  let aa = page.evaluate(() => {
+    let lp = document.querySelectorAll("a[class]");
+    //TODO
+    for (let ii in lp) {
+      let clase = lp[ii].className;
+      if (clase !== undefined) {
+        if (lp[ii].className.toLowerCase().includes("banco en")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        } else if (lp[ii].className.toLowerCase().includes("login")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        } else if (lp[ii].className.toLowerCase().includes("log in")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        } else if (lp[ii].className.toLowerCase().includes("ingresar")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        }
+      }
+    }
+    return {node: "publicSite", found: false, incumbents: {}};
+  });
+  return aa;
+};
+
+
 
 var tests = [
   lps,
   llps,
   adv1,
-  solepass
+  solepass,
+  publicSite
   ];
 
 module.exports = tests;

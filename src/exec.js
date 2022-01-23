@@ -5,9 +5,12 @@ let ff = (async (site) => {
   const browser = await puppeteer.launch({
     args: ['--no-sandbox', '--disable-setuid-sandbox']});
   const page = await browser.newPage();
-  await page.goto(site);
+  await page.goto(site, {
+    waitUntil: 'networkidle0',
+  });
+  await process.stdout.write(site);
   for (let tt in test) {
-    let hola = test[tt](page).then((v) => {console.log(v)});
+    let hola = test[tt](page).then((v) => {if (v.found) {process.stdout.write("," + v.node)}});
   }
   await page.screenshot({ path: 'example.png' });
   await browser.close();
