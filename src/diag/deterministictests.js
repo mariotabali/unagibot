@@ -77,12 +77,36 @@ let adv2 = (page) => {
   return aa;
 };
 
-let publicSite = (page) => {
+let search = (page) => {
   let aa = page.evaluate(() => {
-    let lp = document.querySelectorAll("a[class]");
+    let divs = document.querySelectorAll("div[class]");
+    for (let div in divs) {
+      if (divs[div].className.includes('close')) {
+        return {node: "closedivadvclass", found: true, incumbents: []}
+      }
+    }
+    return {node: "closedivadvclass", found: false, incumbents: []}
+  });
+  return aa;
+};
+
+let publicSiteA = (page) => {
+  let aa = page.evaluate(() => {
+    let lp = document.querySelectorAll("a");
     //TODO
     for (let ii in lp) {
       let clase = lp[ii].className;
+    }
+  });
+}
+
+let publicSite = (page) => {
+  let aa = page.evaluate(() => {
+    let lp = document.querySelectorAll("a");
+    //TODO
+    for (let ii in lp) {
+      let clase = lp[ii].className;
+      let id_ = lp[ii].id;
       if (clase !== undefined) {
         if (lp[ii].className.toLowerCase().includes("banco en")) {
           return {node: "publicSite", found: true, incumbents: {}};
@@ -91,6 +115,15 @@ let publicSite = (page) => {
         } else if (lp[ii].className.toLowerCase().includes("log in")) {
           return {node: "publicSite", found: true, incumbents: {}};
         } else if (lp[ii].className.toLowerCase().includes("ingresar")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        }
+      }
+      if (id_ !== undefined) {
+        if (id_.toLowerCase().includes("banco") || lp[ii].innerHTML.toLowerCase().includes("banco")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        } else if (id_.toLowerCase().includes("login")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        } else if (id_.toLowerCase().includes("ingresar")) {
           return {node: "publicSite", found: true, incumbents: {}};
         }
       }
