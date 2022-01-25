@@ -100,13 +100,14 @@ let publicSiteA = (page) => {
   });
 }
 
-let publicSite = (page) => {
+let publicSiteAnchor = (page) => {
   let aa = page.evaluate(() => {
     let lp = document.querySelectorAll("a");
     //TODO
     for (let ii in lp) {
       let clase = lp[ii].className;
       let id_ = lp[ii].id;
+      let inner = lp[ii].innerHTML;
       if (clase !== undefined) {
         if (lp[ii].className.toLowerCase().includes("banco en")) {
           return {node: "publicSite", found: true, incumbents: {}};
@@ -127,6 +128,13 @@ let publicSite = (page) => {
           return {node: "publicSite", found: true, incumbents: {}};
         }
       }
+      if (inner !== undefined) {
+        if (inner.toLowerCase().includes("sign in")
+            || lp[ii].innerHTML.toLowerCase().includes("login")
+            || inner.toLowerCase().includes("sucursal virtual")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        }
+      }
     }
     return {node: "publicSite", found: false, incumbents: {}};
   });
@@ -140,7 +148,7 @@ var tests = [
   llps,
   adv1,
   solepass,
-  publicSite
+  publicSiteAnchor
   ];
 
 module.exports = tests;
