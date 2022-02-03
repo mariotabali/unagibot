@@ -17,7 +17,7 @@ https://sgc.maipu.cl/sucursal-virtual
 https://www.vtr.com
 https://webmail.tie.cl
 https://ww2.movistar.cl/
-https://www.directtv.cl
+https://directv.cl
 #nerdy stuff
 https://github.com
 https://bitbucket.org

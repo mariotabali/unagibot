@@ -100,6 +100,31 @@ let publicSiteA = (page) => {
   });
 }
 
+let publicSiteButton = (page) => {
+  let aa = page.evaluate(() => {
+    let lp = document.querySelectorAll("button");
+    //TODO
+    for (let ii in lp) {
+      let inner = lp[ii].innerHTML;
+      if (inner !== undefined) {
+        if (inner.toLowerCase().includes("sign in")
+            || inner.toLowerCase().includes("login")
+            || inner.toLowerCase().includes("sucursal virtual")
+            || inner.toLowerCase().includes("log in")
+            || inner.toLowerCase().includes("accede")
+            || inner.toLowerCase().includes("acceso")
+            || inner.toLowerCase().includes("ingreso")
+            || inner.toLowerCase().includes("ingresa")
+            || inner.toLowerCase().includes("iniciar")) {
+          return {node: "publicSite", found: true, incumbents: {}};
+        }
+      }
+    }
+    return {node: "error", found: true, incumbents: {}};
+  });
+  return aa;
+}
+
 let publicSiteAnchor = (page) => {
   let aa = page.evaluate(() => {
     let lp = document.querySelectorAll("a");
@@ -130,8 +155,14 @@ let publicSiteAnchor = (page) => {
       }
       if (inner !== undefined) {
         if (inner.toLowerCase().includes("sign in")
-            || lp[ii].innerHTML.toLowerCase().includes("login")
-            || inner.toLowerCase().includes("sucursal virtual")) {
+            || inner.toLowerCase().includes("login")
+            || inner.toLowerCase().includes("sucursal virtual")
+            || inner.toLowerCase().includes("log in")
+            || inner.toLowerCase().includes("accede")
+            || inner.toLowerCase().includes("acceso")
+            || inner.toLowerCase().includes("ingreso")
+            || inner.toLowerCase().includes("ingresa")
+            || inner.toLowerCase().includes("iniciar")) {
           return {node: "publicSite", found: true, incumbents: {}};
         }
       }
@@ -148,7 +179,8 @@ var tests = [
   llps,
   adv1,
   solepass,
-  publicSiteAnchor
+  publicSiteAnchor,
+  publicSiteButton
   ];
 
 module.exports = tests;

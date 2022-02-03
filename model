@@ -1,0 +1,27 @@
+one strategy:
+
+each node is characterized by an action
+or a pair situation/action
+
+path 1 llps
+vs path 2 :login screen
+
+
+1 path 1
+level 0 lectures
+
+level 1 lps llps
+
+first try:
+llps as measure and as a probabilistic state
+
+consider failure as prior first with initial value corresponding to its frequency and as given after the test
+
+the flow goes this way
+
+Public site
+posibly dismiss advertisment
+get to private site
+log in
+get functionality
+log off
