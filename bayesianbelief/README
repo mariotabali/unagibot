@@ -1,0 +1,5 @@
+to install
+pacman -Sy python
+pacman -Sy python-pip
+pip install pybbn
+

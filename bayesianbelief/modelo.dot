@@ -1,0 +1,24 @@
+/*
+	Huffman Tree DOT graph.
+	Phrase: 'EDOTOR IS AWESOME'
+	Generated on http://huffman.ooz.ie/
+*/
+
+digraph G {
+	edge [label=0];
+	graph [ranksep=0];
+	LLPS
+	LPS
+	SOLEPASS
+	CLOSEDIVADV
+	ADV2
+	SEARCH
+	publicSiteAnchor
+	publicSiteButton
+	LLPSAction
+	LPSAction
+	CloseDivAction
+	GoToLoginAction //hello
+
+}
+
